@@ -12,11 +12,15 @@
       <a-asset-item id="modeloIndustrial" src="models/modelo.glb"></a-asset-item>
     </a-assets>
 
+    <!-- luces -->
+    <a-light type="ambient" intensity="1.2"></a-light>
+    <a-light type="directional" position="1 3 2" intensity="1.5"></a-light>
+
     <!-- modelo CAD -->
     <a-entity gltf-model="#modeloIndustrial"
-              position="0 0 -5"
+              position="0 1 -4"
               rotation="0 0 0"
-              scale="1 1 1">
+              scale="0.5 0.5 0.5">
     </a-entity>
 
     <!-- piso -->
